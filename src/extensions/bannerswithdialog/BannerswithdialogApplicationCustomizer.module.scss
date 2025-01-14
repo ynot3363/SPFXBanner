@@ -1,0 +1,40 @@
+.app {
+    .header {
+      height:40px;
+      text-align:center;
+      line-height:2.0;
+      font-weight:bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .footer {
+      height:40px;
+      text-align:center;
+      line-height:2.0;
+      font-weight:bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    /*** classification banner ***/
+    .dynamicClass,.bannas,.apples,.grapes,.oranges 
+    { 
+      color:#000000; 
+      font-family:verdana,arial,sans-serif; 
+      font-size:10pt; 
+      font-weight:bold; 
+      width:100%; 
+      height:18px; 
+      text-align:center; 
+    }
+
+    .dynamicClass { background-color:#000000; color: #FFFFFF}
+    .bannas { background-color:#7EC07D; }
+    .apples { background-color:#46AFFF; }
+    .grapes       { background-color:#FF7E77; }
+    .oranges    { background-color:#FFB96A; }
+    .bottomBanner { clear: both; }
+
+  }

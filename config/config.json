@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "bannerswithdialog-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/bannerswithdialog/BannerswithdialogApplicationCustomizer.js",
+          "manifest": "./src/extensions/bannerswithdialog/BannerswithdialogApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BannerswithdialogApplicationCustomizerStrings": "lib/extensions/bannerswithdialog/loc/{locale}.js"
+  }
+}
