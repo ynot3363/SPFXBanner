@@ -1,18 +1,18 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "bannerswithdialog-application-customizer": {
+    "sp-fx-banner-application-customizer": {
       "components": [
         {
-          "entrypoint": "./lib/extensions/bannerswithdialog/BannerswithdialogApplicationCustomizer.js",
-          "manifest": "./src/extensions/bannerswithdialog/BannerswithdialogApplicationCustomizer.manifest.json"
+          "entrypoint": "./lib/extensions/spFxBanner/SpFxBannerApplicationCustomizer.js",
+          "manifest": "./src/extensions/spFxBanner/SpFxBannerApplicationCustomizer.manifest.json"
         }
       ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "BannerswithdialogApplicationCustomizerStrings": "lib/extensions/bannerswithdialog/loc/{locale}.js"
+    "SpFxBannerApplicationCustomizerStrings": "lib/extensions/spFxBanner/loc/{locale}.js"
   }
 }

@@ -1,8 +1,7 @@
 {
-  "name": "testbanner",
+  "name": "spfx-banner",
   "version": "0.0.1",
   "private": true,
-  "main": "lib/index.js",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -12,20 +11,19 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "@microsoft/sp-core-library": "~1.4.0",
-    "@microsoft/decorators": "~1.4.0",
-    "@types/webpack-env": "1.13.1",
-    "@types/es6-promise": "0.0.33",
-    "@microsoft/sp-dialog": "~1.4.0",
-    "@microsoft/sp-application-base": "~1.4.0"
+    "@microsoft/sp-core-library": "~1.4.1",
+    "@microsoft/decorators": "~1.4.1",
+    "@types/webpack-env": ">=1.12.1 <1.14.0",
+    "@microsoft/sp-dialog": "~1.4.1",
+    "@microsoft/sp-application-base": "~1.4.1"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "~1.4.1",
     "@microsoft/sp-module-interfaces": "~1.4.1",
     "@microsoft/sp-webpart-workbench": "~1.4.1",
     "gulp": "~3.9.1",
-    "@types/chai": "3.4.34",
-    "@types/mocha": "2.2.38",
+    "@types/chai": ">=3.4.34 <3.6.0",
+    "@types/mocha": ">=2.2.33 <2.6.0",
     "ajv": "~5.2.2"
   }
 }

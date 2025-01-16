@@ -1,26 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "testbanner-client-side-solution",
-    "id": "3837927c-9a60-46f6-b146-3f1bb3007c6a",
+    "name": "spfx-banner-client-side-solution",
+    "id": "cbb22d3e-accb-46da-bd8c-7ec0cacb6278",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
-    "skipFeatureDeployment": true,
-    "features": [
-      {
-        "title": "Application Extension - Deployment of custom action.",
-        "description": "Deploys a custom action with ClientSideComponentId association",
-        "id": "8827ac62-dcd7-4d86-b835-1c5949e9fcef",
-        "version": "1.0.0.0",
-        "assets": {
-          "elementManifests": [
-            "elements.xml"
-          ]
-        }
-      }
-    ]
+    "skipFeatureDeployment": true
   },
   "paths": {
-    "zippedPackage": "solution/testbanner.sppkg"
+    "zippedPackage": "solution/spfx-banner.sppkg"
   }
 }

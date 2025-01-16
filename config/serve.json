@@ -1,12 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "$schema": "https://dev.office.com/json-schemas/core-build/serve.schema.json",
   "port": 4321,
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://docint2019.discovertechnologies.com/SitePages/Home.aspx",
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
       "customActions": {
-        "b7d02f63-0916-4efd-843d-648e7611250d": {
+        "6efc09c0-2521-4f45-855a-7ee26e40a1d7": {
           "location": "ClientSideExtension.ApplicationCustomizer",
           "properties": {
             "testMessage": "Test message"
@@ -14,10 +14,10 @@
         }
       }
     },
-    "bannerswithdialog": {
-      "pageUrl": "https://docint2019.discovertechnologies.com/SitePages/Home.aspx",
+    "spFxBanner": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
       "customActions": {
-        "b7d02f63-0916-4efd-843d-648e7611250d": {
+        "6efc09c0-2521-4f45-855a-7ee26e40a1d7": {
           "location": "ClientSideExtension.ApplicationCustomizer",
           "properties": {
             "testMessage": "Test message"

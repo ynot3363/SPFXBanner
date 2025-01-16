@@ -1,4 +1,4 @@
-## testbanner
+## spfx-banner
 
 This is where you include your WebPart documentation.
 
